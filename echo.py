@@ -1,3 +1,4 @@
-with open ('.env' , 'r') as f : 
-    print(f.read())
-print('hello world')
+with open("secret-foo", "r") as f:
+    secret_foo = f.read()
+
+print(secret_foo)
